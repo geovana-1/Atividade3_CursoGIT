@@ -7,3 +7,10 @@ function subtrair(a, b){
 function multiplicar(a, b){
     return a * b;
 }
+function dividir(a, b){
+    if (b === 0) {
+        return "Não é possível dividir por zero.";
+    } else {
+        return a / b;
+    }
+}
