@@ -23,3 +23,4 @@ console.log(divisao(10, 5));
 // Comentário de teste adicionado
 
 // COMENTÁRIO PARA TESTAR O STASH
+// TESTANDO HOOK PRE-COMMIT!!!!!
