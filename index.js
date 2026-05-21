@@ -21,3 +21,4 @@ console.log(multiplicacao(10, 5));
 console.log(divisao(10, 5));
 
 console.log("teste", dividir(10, 0));
+
