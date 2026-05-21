@@ -1,7 +1,0 @@
-#!/bin/sh
-#Procura pela palavra apenas nos arquivos que estão indo para o commit
-if git diff --cached --name-only | xargs grep -F "PUCPRTESTE"; then
-    echo "A palavra 'PUCPRTESTE' foi encontrada em um dos arquivos."
-    echo "Por favor, remova a palavra 'PUCPRTESTE' antes de fazer o commit."
-    exit 1
-fi
